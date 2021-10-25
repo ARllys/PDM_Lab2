@@ -16,4 +16,9 @@ context.clearRect(0, 0, c.width, c.height);
 context.fillStyle = "#fa8072";
 context.beginPath();
 context.fillRect(480, 320, event.gamma*20, 300);
+context.fill();
+context.fillStyle = "green";
+context.beginPath();
+context.fillRect(0, 0, event.gamma*20, 300);
+context.fill();
 }
