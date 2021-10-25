@@ -19,6 +19,6 @@ context.fillRect(480, 320, event.gamma*20, 300);
 context.fill();
 context.fillStyle = "green";
 context.beginPath();
-context.fillRect(0, 0, event.gamma*20, 300);
+context.fillRect(0, 0, 300, event.beta);
 context.fill();
 }
