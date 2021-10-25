@@ -11,8 +11,8 @@ document.getElementById("c").innerHTML = "gamma = "+gamma;
 var canvas = document.getElementById("canvas");
 var context = canvas.getContext("2d");
 var centru = {x:canvas.width/2, y:canvas.height/2}
-var latura_patrat = 200;
-context.setTransform(1, 0, 0, 1, 0, 0);
+var latura_patrat = 50;
+context.setTransform(0, 0, 1, 0, 0, 1);
 context.clearRect(0,0,canvas.width, canvas.height);
 context.translate(centru.x/2, centru.y/2);
 context.rotate(gamma * Math.PI / 180);
